@@ -1,3 +1,14 @@
+# Importando Streamlit para construir o app
+import streamlit as st
+
+# Importando Folium para trabalhar com mapas interativos
+import folium
+
+# Importando o plugin de desenho do Folium
+from folium.plugins import Draw
+
+# Importando o Streamlit-Folium para renderizar o mapa no app
+from streamlit_folium import st_folium
 # Para trabalhar com Streamlit e folium
 import streamlit as st
 import folium
