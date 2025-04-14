@@ -38,8 +38,8 @@ fig.add_trace(go.Scatter(
     x=list(area.exterior.xy[0]),
     y=list(area.exterior.xy[1]),
     fill="toself",
-    fillcolor="green",
-    line_color="green",
+    fillcolor="blue",
+    line_color="gray",
     name="Área Agrícola"
 ))
 
