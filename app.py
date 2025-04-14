@@ -1,3 +1,8 @@
+# Para trabalhar com Streamlit e folium
+import streamlit as st
+import folium
+from folium.plugins import Draw
+from streamlit_folium import st_folium
 import streamlit as st
 import plotly.graph_objects as go
 from shapely.geometry import Polygon, LineString
